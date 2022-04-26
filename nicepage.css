@@ -36629,12 +36629,27 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 154px;
+}
+
+.u-header .u-shopping-cart-1 {
+  height: 31px;
+  width: 31px;
+  margin: 9px 0 60px auto;
+}
+
+.u-header .u-icon-1 {
+  padding: 3px;
 }
 
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-shopping-cart-1 {
+    height: 31px;
+    margin-top: 10px;
+  }
+}
  .u-footer {
   background-image: none;
 }
